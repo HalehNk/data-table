@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تسک دوره جاوااسکریپت</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+  <section class="container">
+    <div class="header">
+      <h1>لیست تراکنش‌ها</h1>
+      <div class="search-box hidden">
+        <form action="" class="search-form">
+          <input class="search-field" type="text" id="search" placeholder="جست و جو تراکنش...">
+          <img class="search-icon" src="../assets/icons/Search.svg" alt="search icon">
+        </form>
+      </div>
+    </div>
+    <section class="list">
+      <button class="primary__button cursor-pointer">بارگذاری تراکنش‌ها</button>
+      <div class="table-container hidden">
+        <table class="table">
+          <h2>لیست تراکنش‌های شما</h2>
+
+          <thead class="table-head">
+            <tr class="head-row last-row-radius">
+              <th>ردیف</th>
+              <th>نوع تراکنش</th>
+              <th class="cursor-pointer">
+                <span>مبلغ</span>
+                <img class="img-chevron" src="../assets/icons/Chevron.svg" alt="chevron icon">
+              </th>
+              <th>شماره پیگیری</th>
+              <th class="cursor-pointer last-th-radius">
+                <span>تاریخ تراکنش</span>
+                <img class="img-chevron" src="../assets/icons/Chevron.svg" alt="chevron icon">
+              </th>
+            </tr>
+          </thead>
+          <tbody class="table-Body">
+            <!-- <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
